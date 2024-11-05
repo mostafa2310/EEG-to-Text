@@ -7,6 +7,6 @@ python3 train_decoding_raw.py --model_name BrainTranslator \
     --num_epoch_step2 25 \
     -lr1 0.00005 \
     -lr2 0.00005 \
-    -b 1\
+    -b 15\
     -s ./checkpoints/decoding_raw \
     -cuda cuda:0
